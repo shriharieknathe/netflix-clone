@@ -3,7 +3,7 @@ import "./Player.css";
 import back_arrow_icon from "../../assets/back_arrow_icon.png";
 import { useNavigate, useParams } from "react-router-dom";
 
-const TMDB_Access_Key =  import.meta.env.TMDB_Access_KEY;
+const TMDB_Access_Key =  import.meta.env.VITE_TMDB_ACCESS_KEY;
 
 const Player = (props) => {
   const state = props.location;
